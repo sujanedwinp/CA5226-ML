@@ -1,0 +1,6 @@
+name,age,column_name,category,date
+Alice,25,5,A,2024-01-15
+Bob,30,15,B,2024-03-22
+Charlie,22,8,A,2024-06-05
+Diana,35,20,C,2024-09-10
+Eve,28,12,B,2024-11-30
