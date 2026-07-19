@@ -5,6 +5,5 @@ iris = load_iris(as_frame=True)
 df = iris.frame
 df["species"] = df["target"].map({0: "setosa", 1: "versicolor", 2: "virginica"})
 
-print("Shape:", df.shape)
 print("\nFirst 5 rows:")
 print(df.head())

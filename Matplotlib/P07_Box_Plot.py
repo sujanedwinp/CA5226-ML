@@ -1,12 +1,12 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-np.random.seed(3)
-data = [np.random.normal(loc, 1.0, 50) for loc in [10, 20, 15, 25]]
+data = [np.random.normal(10, 1, 50),
+        np.random.normal(20, 1, 50),
+        np.random.normal(15, 1, 50),
+        np.random.normal(25, 1, 50)]
 
-plt.boxplot(data, labels=["Group A", "Group B", "Group C", "Group D"],
-            patch_artist=True,
-            boxprops=dict(facecolor="steelblue", alpha=0.6))
-plt.title("Box Plot — Dataset Distribution")
+plt.boxplot(data)
+plt.title("Distribution Box Plot")
 plt.ylabel("Value")
 plt.show()

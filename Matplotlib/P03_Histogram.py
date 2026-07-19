@@ -1,10 +1,9 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-np.random.seed(0)
-data = np.random.randn(500)   # 500 normally distributed values
+data = np.random.randn(500)
 
-plt.hist(data, bins=20, color="mediumpurple", edgecolor="white")
+plt.hist(data, bins=20, color="blue", edgecolor="white")
 plt.title("Histogram (20 bins)")
 plt.xlabel("Value")
 plt.ylabel("Frequency")
