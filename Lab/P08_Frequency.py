@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 
+classes=[10,15,20,25,30,35]
 data = (
     [12.5]*5 +
     [17.5]*6 +
@@ -8,7 +9,7 @@ data = (
     [32.5]*2
 )
 
-plt.hist(data, bins=[10,15,20,25,30,35], edgecolor="black")
+plt.hist(data, bins=classes, edgecolor="black")
 
 plt.title("Histogram")
 plt.xlabel("Class Interval")

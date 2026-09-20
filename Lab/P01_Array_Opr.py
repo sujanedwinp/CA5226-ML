@@ -1,10 +1,10 @@
-import pandas as pd
+
 import numpy as np
 
 array_1d = np.arange(0, 10)
 array_2d = np.random.randint(0, 10, size=(3, 4))
 
-mean = array_1d.mean()
+mean = np.mean(array_1d)
 stddev = array_1d.std()
 normalize = ((array_1d - mean)/stddev)
 
