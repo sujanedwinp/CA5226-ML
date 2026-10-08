@@ -6,7 +6,7 @@ print(f"Array:\n{nums}")
 print(f"Mean on Rows:\n{np.mean(nums, axis=1)}")
 print(f"Mean on Cols:\n{np.mean(nums, axis=0)}")
 
-print(f"Array Multiply\n{nums*[1, 2]}")
+print(f"Array Multiply\n{nums*np.array([1, 2, 3]).reshape(3, 1)}")
 
 nums1d = np.array([45, 23, 54, 95, 67, 89])
 print(f"Adding 1 to all:\n{nums1d+1}")
